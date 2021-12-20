@@ -13,7 +13,7 @@ namespace ProductivityTools.Shortcuts
         /// <returns>A task representing the asynchronous operation.</returns>
         public async Task HandleAsync(HttpContext context)
         {
-            await context.Response.WriteAsync("Hello, Functions Framework. Hi again");
+            await context.Response.WriteAsync("Hello, Functions Framework. Hi!");
         }
     }
 }
